@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #999999;
+    /* background-color: #999999; */
 }
 
 .header {
@@ -208,8 +208,11 @@ ul>li>a {
     font-size: 0.8rem;
     cursor: pointer;
     padding: 2px;
-    padding-right: 12px;
+    padding-right: 10px;
     border-right: 1px solid silver;
+}
+.safes{
+    border: none;
 }
 
 .orange {
@@ -226,6 +229,56 @@ ul>li>a {
     color: #0f7e74bb;
     font-size: 1rem;
 }
+
+.deliverys{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  
+}
+
+.deliv{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+    
+  
+}
+
+.del-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.content:hover{
+    color: #ff6801;
+}
+.del-img > img{
+    width: 100%;
+}
+
+
 
 @media screen and (max-width:950px) {
     .heros {
@@ -250,6 +303,9 @@ ul>li>a {
         border: none;
 
     }
+    .deliv{
+        width: 35%;
+    }
 }
 
 @media screen and (max-width:520px) {
@@ -273,6 +329,13 @@ ul>li>a {
 
     .lists {
         width: 100%;
+    }
+    .delivery{
+        justify-content: center;
+    }
+    .deliv{
+        width: 52%;
+        
     }
 
 }
