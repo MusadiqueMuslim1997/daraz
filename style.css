@@ -242,7 +242,7 @@ ul>li>a {
 }
 
 .deliv{
-    width: 8%;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,11 +330,12 @@ ul>li>a {
     .lists {
         width: 100%;
     }
-    .delivery{
+    .deliverys{
         justify-content: center;
+        gap: 40px;
     }
     .deliv{
-        width: 52%;
+        width: 35%;
         
     }
 
