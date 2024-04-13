@@ -299,8 +299,43 @@ ul>li>a {
     text-shadow: 1px 1px black;
 }
 
+.sale-now {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid silver;
 
+}
 
+.online {
+    width: 15%;
+    color: #ff6801;
+    font-weight: bolder;
+}
+
+.end {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.orn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6801;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
 
 @media screen and (max-width:950px) {
     .heros {
@@ -328,6 +363,19 @@ ul>li>a {
 
     .deliv {
         width: 35%;
+    }
+    .online{
+        width: 33%;
+        font-size: 1rem;
+    }
+    .orn{
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+    .end{
+        width: 65%;
+        font-size: 1rem;
     }
 }
 
