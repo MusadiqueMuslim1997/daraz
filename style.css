@@ -211,7 +211,8 @@ ul>li>a {
     padding-right: 10px;
     border-right: 1px solid silver;
 }
-.safes{
+
+.safes {
     border: none;
 }
 
@@ -230,7 +231,7 @@ ul>li>a {
     font-size: 1rem;
 }
 
-.deliverys{
+.deliverys {
     width: 100%;
     display: flex;
     align-items: center;
@@ -239,22 +240,22 @@ ul>li>a {
     gap: 20px;
     padding: 20px;
     background-color: white;
-  
+
 }
 
-.deliv{
-    width: 8%;
+.deliv {
+    width: 9%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-   
-    
-  
+
+
+
+
 }
 
-.del-img{
+.del-img {
     width: 100%;
     display: flex;
     align-items: center;
@@ -262,7 +263,8 @@ ul>li>a {
     object-fit: cover;
 
 }
-.content{
+
+.content {
     width: 100%;
     display: flex;
     align-items: center;
@@ -270,14 +272,33 @@ ul>li>a {
     text-align: center;
     padding: 15px 0px;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: bold;
 }
-.content:hover{
+
+.content:hover {
     color: #ff6801;
 }
-.del-img > img{
+
+.del-img>img {
     width: 100%;
 }
+
+
+
+.sale {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #dbd7d7;
+}
+
+.sale>h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
 
 
 
@@ -304,7 +325,8 @@ ul>li>a {
         border: none;
 
     }
-    .deliv{
+
+    .deliv {
         width: 35%;
     }
 }
@@ -331,13 +353,15 @@ ul>li>a {
     .lists {
         width: 100%;
     }
-    .deliverys{
+
+    .deliverys {
         justify-content: center;
         gap: 40px;
     }
-    .deliv{
+
+    .deliv {
         width: 35%;
-        
+
     }
 
 }
