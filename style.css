@@ -125,7 +125,7 @@ ul>li>a {
 
 .lists {
     width: 20%;
-    height: 240px;
+    height: 250px;
     padding: 5px;
     border-radius: 10px;
     background-color: white;
@@ -170,23 +170,14 @@ ul>li>a {
     .inp {
         width: 90%;
     }
+.heros{
+    margin-top: 110px ;
+}
+    
+.lists{
+    height: 100px;
+}
+  
 
-    .heros {
-        margin-top: 110px;
-        flex-direction: column-reverse;
-        justify-content: left;
-        
-    }
-
-    .lists {
-        width: 60%;
-        height: 200px;
-
-    }
-
-    .imgs {
-        width: 100%;
-        height: auto;
-
-    }
+    
 }
