@@ -295,8 +295,8 @@ ul>li>a {
 .sale>h2 {
     font-size: 2rem;
     font-weight: bolder;
-    color: gray;
-    text-shadow: 1px 1px black;
+    color: white;
+    text-shadow: 5px 3px #ff6801;
 }
 
 .sale-now {
