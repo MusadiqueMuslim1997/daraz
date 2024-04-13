@@ -127,11 +127,11 @@ ul>li>a {
     width: 25%;
     display: flex;
     align-items: center;
-    /* height: 300px; */
     border-radius: 10px;
     background-color: white;
     font-size: 0.8rem;
     padding-top: 10px;
+ 
 }
 
 .imgs {
@@ -141,6 +141,7 @@ ul>li>a {
     justify-content: center;
     border-radius: 10px;
     object-fit: cover;
+    background-color: white;
 }
 
 .imgs>img {
@@ -151,21 +152,25 @@ ul>li>a {
 
 .lists>ul {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
     padding-left: 10px;
     padding-right: 10px;
 
-}
 
-.lists>ul>li {
-    list-style: none;
-    line-height: 0px;
-    cursor: pointer;
 }
 
 .lists>ul>li {
     width: 100%;
-    padding: 3px;
+    padding: 5px;
+    line-height: 0px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+
 }
+
 
 .lists>ul>li:hover {
     background-color: #dbd7d7;
@@ -187,6 +192,7 @@ ul>li>a {
         width: 40%;
         padding-left: 5px;
     }
+
 }
 
 @media screen and (max-width:520px) {
