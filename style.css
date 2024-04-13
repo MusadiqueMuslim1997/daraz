@@ -125,10 +125,13 @@ ul>li>a {
 
 .lists {
     width: 20%;
-    height: 250px;
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    /* height: 300px; */
     border-radius: 10px;
     background-color: white;
+    font-size: 0.8rem;
+    padding-top: 10px;
 }
 
 .imgs {
@@ -147,7 +150,18 @@ ul>li>a {
     cursor: pointer;
 }
 
+.lists > ul {
+    width: 100%;
+    padding-left: 10px;
+    
 
+}
+
+.lists>ul>li {
+    list-style: none;
+    line-height: 0.5rem;
+    cursor: pointer;
+}
 
 
 
@@ -170,14 +184,13 @@ ul>li>a {
     .inp {
         width: 90%;
     }
-.heros{
-    margin-top: 110px ;
-}
-    
-.lists{
-    height: 100px;
-}
-  
 
-    
+    .heros {
+        margin-top: 110px;
+    }
+
+
+
+
+
 }
