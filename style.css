@@ -153,17 +153,23 @@ ul>li>a {
 .lists > ul {
     width: 100%;
     padding-left: 10px;
-    
+    padding-right: 10px;
 
 }
 
 .lists>ul>li {
     list-style: none;
-    line-height: 0.5rem;
+    line-height: 0.2rem;
     cursor: pointer;
 }
-
-
+.lists>ul>li {
+    width: 100%;
+    padding: 5px 2px ;
+}
+.lists>ul>li:hover{
+    background-color: #dbd7d7;
+    color: #ff6801;
+}
 
 
 @media screen and (max-width:520px) {
