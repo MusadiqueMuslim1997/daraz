@@ -208,18 +208,21 @@ ul>li>a {
     font-size: 0.8rem;
     cursor: pointer;
     padding: 2px;
-    padding-right: 15px;
+    padding-right: 12px;
     border-right:1px solid silver;
 }
 
 .orange {
     color: #ff6801;
+    font-size: 1rem;
 }
 .blue{
     color: darkblue;
+    font-size: 1rem;
 }
 .green{
     color: #0f7e74bb;
+    font-size: 1rem;
 }
 @media screen and (max-width:950px) {
     .heros {
