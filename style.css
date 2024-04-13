@@ -116,6 +116,7 @@ ul>li>a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px;
     gap: 15px;
     margin-top: 100px;
@@ -124,7 +125,8 @@ ul>li>a {
 
 .lists {
     width: 20%;
-    height: 340px;
+    height: 240px;
+    padding: 5px;
     border-radius: 10px;
     background-color: white;
 }
@@ -134,7 +136,6 @@ ul>li>a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 340px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -170,11 +171,22 @@ ul>li>a {
         width: 90%;
     }
 
+    .heros {
+        margin-top: 110px;
+        flex-direction: column-reverse;
+        justify-content: left;
+        
+    }
+
     .lists {
-        width: 40%;
+        width: 60%;
+        height: 200px;
+
     }
 
     .imgs {
-        width: 60%;
+        width: 100%;
+        height: auto;
+
     }
 }
