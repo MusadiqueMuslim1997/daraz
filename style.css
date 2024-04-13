@@ -337,6 +337,73 @@ ul>li>a {
     font-size: 1.2rem;
 }
 
+.cards {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: white;
+}
+
+.cards-1 {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid silver;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-color: white;
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.card-price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #ff6801;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.card-discount {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.card-discount>s {
+    color: silver;
+    font-weight: normal;
+}
+
+.card-img>img {
+    width: 100%;
+}
+
 @media screen and (max-width:950px) {
     .heros {
         margin-top: 110px;
@@ -364,16 +431,19 @@ ul>li>a {
     .deliv {
         width: 35%;
     }
-    .online{
+
+    .online {
         width: 33%;
         font-size: 1rem;
     }
-    .orn{
+
+    .orn {
         width: 30px;
         height: 30px;
         font-size: 1rem;
     }
-    .end{
+
+    .end {
         width: 65%;
         font-size: 1rem;
     }
@@ -410,6 +480,10 @@ ul>li>a {
     .deliv {
         width: 35%;
 
+    }
+
+    .cards {
+        justify-content: center;
     }
 
 }
