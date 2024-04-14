@@ -717,20 +717,21 @@ ul>li>a {
     }
 
     .care-1 {
-        width: 60%;
+        width: 70%;
 
     }
 
     .care-2 {
-        width: 70%;
+        width: 75%;
     }
 
     .care-3 {
-        width: 70%;
+        width: 100%;
     }
 
     .care-4 {
-        width: 70%;
+        width: 100%;
+        gap:10px
     }
 
     .care-1head {
