@@ -120,7 +120,7 @@ ul>li>a {
     padding: 20px;
     gap: 15px;
     margin-top: 100px;
-    background-color: #dbd7d7;
+    background-color: #f1ecec;
 }
 
 .lists {
@@ -454,7 +454,7 @@ ul>li>a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #dbd7d7;
+    background-color: #f1ecec;
 }
 
 .load-more {
@@ -481,7 +481,7 @@ ul>li>a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-   
+
 }
 
 .care-1 {
@@ -490,18 +490,18 @@ ul>li>a {
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-  
+
 
 }
 
 .care-2 {
     width: 25%;
-   
+
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-   
+
 }
 
 .care-3 {
@@ -512,17 +512,17 @@ ul>li>a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-   
+
 }
 
 .care-4 {
     width: 22%;
-   
+
     display: flex;
 
     justify-content: center;
     flex-wrap: wrap;
-  
+
 
 }
 
@@ -643,6 +643,20 @@ ul>li>a {
 .bl {
     font-size: 1.6rem;
     color: #1877F2;
+}
+
+
+.headerss {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: cursive;
+    background-color: #ff6801;
+    color: white;
 }
 
 @media screen and (max-width:950px) {
