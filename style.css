@@ -481,7 +481,7 @@ ul>li>a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: aqua;
+   
 }
 
 .care-1 {
@@ -490,42 +490,39 @@ ul>li>a {
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: #f5dcd0;
+  
 
 }
 
 .care-2 {
     width: 25%;
-    height: 60vh;
+   
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: #f5dcd0;
-
+   
 }
 
 .care-3 {
     width: 22%;
-   
+
     display: flex;
-  
+
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: #f5dcd0;
-
+   
 }
 
 .care-4 {
     width: 22%;
-    height: 50vh;
+   
     display: flex;
-    align-items: center;
+
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
-    background-color: #f5dcd0;
+  
 
 }
 
@@ -560,7 +557,7 @@ ul>li>a {
 }
 
 .care-2list {
-     width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -577,7 +574,7 @@ ul>li>a {
     font-weight: 500;
 }
 
-.care-2list>  ul{
+.care-2list>ul {
     margin-bottom: 150px;
 }
 
@@ -588,25 +585,66 @@ ul>li>a {
 }
 
 .care-3list {
-     width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
-    flex-direction: column;
-
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 220px;
 }
+
+
+
+
 
 .care-3list>ul {
-    list-style: none;
-    font-size: 1rem;
-    padding: 0px;
-    line-height: 5px;
-    font-family: sans-serif;
-    font-weight: 500;
-}
-.care-3list>  ul{
     margin-bottom: 250px;
 }
+
+.care-4head {
+    width: 100%;
+    color: #ff6801;
+
+}
+
+.care-4list {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 240px;
+
+
+
+
+}
+
+
+
+.care-4list>a {
+    text-decoration: none;
+}
+
+.black {
+    font-size: 1.6rem;
+    color: #2b3137;
+}
+
+.blues {
+    font-size: 1.6rem;
+    color: #0077b5;
+}
+
+.green {
+    font-size: 1.6rem;
+    color: #25D366;
+}
+
+.bl {
+    font-size: 1.6rem;
+    color: #1877F2;
+}
+
 @media screen and (max-width:950px) {
     .heros {
         margin-top: 110px;
@@ -659,32 +697,59 @@ ul>li>a {
     .sale {
         text-align: center;
     }
-    .care{
+
+    .care {
         justify-content: center;
     }
-    .care-1{
+
+    .care-1 {
         width: 60%;
-        
+
     }
-    .care-2{
+
+    .care-2 {
         width: 70%;
     }
-    .care-3{
+
+    .care-3 {
         width: 70%;
     }
-    .care-4{
+
+    .care-4 {
         width: 70%;
     }
-    .care-1head{
+
+    .care-1head {
         text-align: center;
     }
-    .care-1list > ul {
+
+    .care-1list>ul {
         justify-content: center;
     }
-    .care-2head{
+
+    .care-2head {
         text-align: center;
     }
-    .care-2list > ul {
+
+    .care-2list>ul {
+        justify-content: center;
+    }
+
+    .care-3head {
+        text-align: center;
+    }
+
+    .care-3list {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .care-4head {
+        text-align: center;
+    }
+
+    .care-4list {
+        text-align: center;
         justify-content: center;
     }
 }
