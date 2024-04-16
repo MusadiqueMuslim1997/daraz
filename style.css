@@ -200,6 +200,7 @@ ul>li>a {
 
 .facilate:hover {
     background-color: #f5dcd0;
+    transition: 2s;
 }
 
 .safe {
@@ -279,6 +280,7 @@ ul>li>a {
 
 .content:hover {
     color: #ff6801;
+  
 }
 
 .del-img>img {
