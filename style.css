@@ -653,7 +653,8 @@ ul>li>a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+    font-weight: bolder;
     font-family: cursive;
     background-color: #ff6801;
     color: white;
