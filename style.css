@@ -135,7 +135,7 @@ ul>li>a {
 
 .imgs {
     width: 75%;
-    height: 320px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,8 +146,9 @@ ul>li>a {
 
 .imgs>img {
     width: 100%;
-    height: 320px;
+
     border-radius: 10px;
+
     cursor: pointer;
 }
 
@@ -280,7 +281,7 @@ ul>li>a {
 
 .content:hover {
     color: #ff6801;
-  
+
 }
 
 .del-img>img {
@@ -737,7 +738,7 @@ ul>li>a {
 
     .care-4 {
         width: 100%;
-        gap:10px
+        gap: 10px
     }
 
     .care-1head {
