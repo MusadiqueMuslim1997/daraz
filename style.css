@@ -657,7 +657,7 @@ ul>li>a {
     justify-content: center;
     text-align: center;
     font-size: 0.7rem;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px #ff6801;
     font-weight: bolder;
     font-family: cursive;
     background-color: #ff6801;
